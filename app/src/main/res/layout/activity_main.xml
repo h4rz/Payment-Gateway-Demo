@@ -13,7 +13,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/name" />
+        android:id="@+id/etName" />
 
     <EditText
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/upi_id" />
+        android:id="@+id/etUpiID" />
 
     <EditText
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/amount_et"
+        android:id="@+id/etAmount"
         android:inputType="numberDecimal" />
 
 
@@ -42,7 +42,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/note" />
+        android:id="@+id/etNote" />
 
     <Button
         android:layout_width="match_parent"
@@ -50,10 +50,21 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:background="@color/colorPrimary"
-        android:id="@+id/send"
+        android:id="@+id/btnSend"
         android:textColor="@android:color/white"
         android:layout_marginTop="20dp"
         android:text="Pay Now" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btnScanQr"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:text="Scan QR" />
 
     <TextView
         android:id="@+id/tvResponse"

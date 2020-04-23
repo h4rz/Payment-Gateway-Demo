@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Payment Gateway Demo</string>
+    <string name="barcode_help_message">Place a qr-code inside the viewfinder rectangle to scan it.</string>
+    <string name="okay">Okay</string>
 </resources>
